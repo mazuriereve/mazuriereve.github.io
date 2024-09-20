@@ -1,5 +1,3 @@
-# Documentation de boucovoiturage.fr
-
 ## Table des matières
 1. [Introduction](#introduction)
 2. [Fonctionnalités principales](#fonctionnalités-principales)
