@@ -1,3 +1,5 @@
-theme: pages-themes/slate@v0.2.0
+remote_theme: pages-themes/architect@v0.2.0
+plugins:
+- jekyll-remote-them
 title: Documentation boucovoiturage.fr 
 description: Ce site a pour objectif de vous présentez le site boucovoiturage.fr
