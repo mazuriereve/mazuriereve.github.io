@@ -16,6 +16,19 @@
 
 ## 1. Introduction
 
+<div class="custom-section">
+   Ceci est une section avec des styles personnalisés.
+</div>
+
+<style>
+.custom-section {
+   color: red;
+   background-color: #f0f0f0;
+   padding: 10px;
+   border-radius: 5px;
+}
+</style>
+
 **Boucovoiturage.fr** est une plateforme de covoiturage local qui connecte les conducteurs ayant des places disponibles dans leur voiture avec des passagers cherchant à partager un trajet. 
 L’objectif est de réduire les frais de transport tout en limitant l’impact environnemental lié à l’utilisation excessive des voitures individuelles.
 
