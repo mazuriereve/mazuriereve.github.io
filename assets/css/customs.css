@@ -1,10 +1,6 @@
-/* Par exemple, changer la couleur de fond */
-body {
-    background-color: #f4f4f4;
-}
-
-/* Modifier les titres */
-h1, h2, h3, h4 {
-    font-family: 'Arial', sans-serif;
-    color: #333;
+.container, .wrapper {
+    max-width: 1200px; /* Ajuste la largeur maximale pour réduire la taille */
+    margin: 0 auto; /* Centrer le contenu */
+    padding-left: 10px; /* Réduire les marges à gauche */
+    padding-right: 10px; /* Réduire les marges à droite */
 }
