@@ -1,3 +1,12 @@
+<style>
+    .container, .wrapper {
+    max-width: 1200px; /* Ajuste la largeur maximale pour réduire la taille */
+    margin: 0 auto; /* Centrer le contenu */
+    padding-left: 10px; /* Réduire les marges à gauche */
+    padding-right: 10px; /* Réduire les marges à droite */
+}
+</style>
+
 ## Table des matières
 1. [Introduction](#introduction)
 2. [Fonctionnalités principales](#fonctionnalités-principales)
