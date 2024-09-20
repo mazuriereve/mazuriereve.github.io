@@ -1,0 +1,10 @@
+/* Par exemple, changer la couleur de fond */
+body {
+    background-color: #f4f4f4;
+}
+
+/* Modifier les titres */
+h1, h2, h3, h4 {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
