@@ -16,7 +16,7 @@
 
 ## 1. Introduction
 
- ![Boucovoiturage.](imgs/boucovoituragefr.png "Le titre de mon image")
+ ![Boucovoiturage.](boucovoituragefr.png)
 
 <p style="color: blue; font-weight: bold;">Boucovoiturage.fr est une plateforme de covoiturage local </p> qui connecte les conducteurs ayant des places disponibles dans leur voiture avec des passagers cherchant à partager un trajet. L’objectif est de réduire les frais de transport tout en limitant l’impact environnemental lié à l’utilisation excessive des voitures individuelles.
 
