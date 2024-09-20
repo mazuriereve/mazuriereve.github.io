@@ -16,9 +16,7 @@
 
 ## 1. Introduction
 
-<p style="color: blue; font-weight: bold;">Voici un paragraphe stylé en bleu avec une police en gras.</p>
-
-**Boucovoiturage.fr** est une plateforme de covoiturage local qui connecte les conducteurs ayant des places disponibles dans leur voiture avec des passagers cherchant à partager un trajet. 
+<p style="color: blue; font-weight: bold;">**Boucovoiturage.fr** est une plateforme de covoiturage local </p> qui connecte les conducteurs ayant des places disponibles dans leur voiture avec des passagers cherchant à partager un trajet. 
 L’objectif est de réduire les frais de transport tout en limitant l’impact environnemental lié à l’utilisation excessive des voitures individuelles.
 
 A leur inscription les utilisateurs peuvent choisir si ils sont passagers ou conducteur (avec la possibilité de le changer par la suite)
