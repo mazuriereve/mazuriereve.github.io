@@ -8,9 +8,9 @@
 .sidebar {
   position: sticky;
   top: 0; /* Garde la barre latérale en haut lorsque l'utilisateur défile */
-  width: 300px; /* Ajuste la largeur selon ton besoin */
+  width: 320px; /* Ajuste la largeur selon ton besoin */
   padding: 50px;
-  background-color: pink ; /* Couleur de fond de la barre latérale */
+  background-color: grey ; /* Couleur de fond de la barre latérale */
   height: 100vh; /* Prend toute la hauteur de la page */
   overflow-y: auto; /* Si la table des matières est trop longue, elle sera scrollable */
   border-right: 2px solid #ccc; /* Optionnel : bordure droite */
@@ -41,7 +41,7 @@ nav ul {
 nav ul li a {
   text-decoration: none;
   color: #007bff;
-  padding: 5px 0;
+  padding: 3px 0;
   display: block;
 }
 
