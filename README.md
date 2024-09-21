@@ -1,18 +1,4 @@
 
-## Table des matières
-1. [Introduction](#introduction)
-2. [Fonctionnalités principales](#fonctionnalités-principales)
-3. [Structure des pages](#structure-des-pages)
-    - [Page d'inscription et de connexion](#page-dinscription-et-de-connexion)
-    - [Page d'accueil](#page-daccueil)
-    - [Page de recherche](#page-de-recherche)
-    - [Profil utilisateur](#profil-utilisateur)
-    - [Page de réservation](#page-de-réservation)
-4. [Processus d'inscription](#processus-dinscription)
-
-
----
-
 ## 1. Introduction
 
  ![Boucovoiturage.](imgs/boucovoituragefr.png)
