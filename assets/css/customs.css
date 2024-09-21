@@ -10,7 +10,7 @@
   top: 0; /* Garde la barre latérale en haut lorsque l'utilisateur défile */
   width: 320px; /* Ajuste la largeur selon ton besoin */
   padding: 50px;
-  background-color: grey ; /* Couleur de fond de la barre latérale */
+  background-color: lightblue ; /* Couleur de fond de la barre latérale */
   height: 100vh; /* Prend toute la hauteur de la page */
   overflow-y: auto; /* Si la table des matières est trop longue, elle sera scrollable */
   border-right: 2px solid #ccc; /* Optionnel : bordure droite */
@@ -19,7 +19,7 @@
 /* Contenu principal */
 .content {
   flex-grow: 1;
-  padding: 20px;
+  padding: 30px;
   overflow-y: auto;
 }
 
