@@ -4,3 +4,11 @@
     padding-left: 10px; /* Réduire les marges à gauche */
     padding-right: 10px; /* Réduire les marges à droite */
 }
+header {
+    padding: 10px 0; /* Réduire le padding vertical */
+    background-color: #333; /* Couleur de fond (si besoin) */
+    color: white; /* Couleur du texte */
+    text-align: center; /* Centrer le texte */
+    font-size: 1.5rem; /* Taille du texte plus petite si nécessaire */
+}
+
