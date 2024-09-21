@@ -48,3 +48,9 @@ nav ul li a {
 nav ul li a:hover {
   text-decoration: underline;
 }
+
+ul {
+    list-style-type: none; /* Supprime les puces par défaut */
+    padding-left: 20px;   /* Ajoute un retrait */
+}
+
