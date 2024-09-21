@@ -11,6 +11,26 @@
     <header>
         <h1>Mon site Jekyll</h1>
     </header>
+
+    <div class="layout">
+  <aside class="sidebar">
+    <h2>Table des matières</h2>
+    <!-- Ta table des matières ici -->
+    <nav>
+      <ul>
+        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#fonctionnalites-principales">Fonctionnalités principales</a></li>
+        <li><a href="#structure-des-pages">Structure des pages</a></li>
+        <li><a href="#processus-dinscription">Processus d'inscription</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <main class="content">
+    {{ content }}
+  </main>
+</div>
+
     
     <main>
         {{ content }} <!-- C'est ici que le contenu de README.md sera injecté -->
