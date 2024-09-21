@@ -8,12 +8,12 @@
 .sidebar {
   position: sticky;
   top: 0; /* Garde la barre latérale en haut lorsque l'utilisateur défile */
-  width: 250px; /* Ajuste la largeur selon ton besoin */
+  width: 300px; /* Ajuste la largeur selon ton besoin */
   padding: 50px;
-  background-color: #f8f9fa; /* Couleur de fond de la barre latérale */
+  background-color: pink ; /* Couleur de fond de la barre latérale */
   height: 100vh; /* Prend toute la hauteur de la page */
   overflow-y: auto; /* Si la table des matières est trop longue, elle sera scrollable */
-  border-right: 1px solid #ccc; /* Optionnel : bordure droite */
+  border-right: 2px solid #ccc; /* Optionnel : bordure droite */
 }
 
 /* Contenu principal */
