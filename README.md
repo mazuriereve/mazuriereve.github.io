@@ -1,4 +1,4 @@
-
+<div class="table-of-contents">
 ## Table des matières
 1. [Introduction](#introduction)
 2. [Fonctionnalités principales](#fonctionnalités-principales)
@@ -9,7 +9,7 @@
     - [Profil utilisateur](#profil-utilisateur)
     - [Page de réservation](#page-de-réservation)
 4. [Processus d'inscription](#processus-dinscription)
-
+</div>
 
 ---
 
