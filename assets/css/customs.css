@@ -1,14 +1,50 @@
-.container, .wrapper {
-    max-width: 1200px; /* Ajuste la largeur maximale pour réduire la taille */
-    margin: 0 auto; /* Centrer le contenu */
-    padding-left: 10px; /* Réduire les marges à gauche */
-    padding-right: 10px; /* Réduire les marges à droite */
-}
-header {
-    padding: 10px 0; /* Réduire le padding vertical */
-    background-color: #333; /* Couleur de fond (si besoin) */
-    color: white; /* Couleur du texte */
-    text-align: center; /* Centrer le texte */
-    font-size: 1.5rem; /* Taille du texte plus petite si nécessaire */
+/* Container layout: side-by-side */
+.layout {
+  display: flex;
+  min-height: 100vh; /* S'étend sur toute la hauteur de la fenêtre */
 }
 
+/* Sidebar (Table des matières) */
+.sidebar {
+  position: sticky;
+  top: 0; /* Garde la barre latérale en haut lorsque l'utilisateur défile */
+  width: 250px; /* Ajuste la largeur selon ton besoin */
+  padding: 20px;
+  background-color: #f8f9fa; /* Couleur de fond de la barre latérale */
+  height: 100vh; /* Prend toute la hauteur de la page */
+  overflow-y: auto; /* Si la table des matières est trop longue, elle sera scrollable */
+  border-right: 1px solid #ccc; /* Optionnel : bordure droite */
+}
+
+/* Contenu principal */
+.content {
+  flex-grow: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+/* Styles supplémentaires pour rendre le contenu agréable */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+main h1, main h2, main h3 {
+  margin-top: 1em;
+}
+
+nav ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #007bff;
+  padding: 10px 0;
+  display: block;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
