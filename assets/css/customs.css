@@ -41,7 +41,7 @@ nav ul {
 nav ul li a {
   text-decoration: none;
   color: #007bff;
-  padding: 10px 0;
+  padding: 5px 0;
   display: block;
 }
 
@@ -51,6 +51,6 @@ nav ul li a:hover {
 
 ul {
     list-style-type: none; /* Supprime les puces par défaut */
-    padding-left: 20px;   /* Ajoute un retrait */
+    
 }
 
