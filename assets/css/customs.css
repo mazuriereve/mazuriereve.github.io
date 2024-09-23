@@ -8,6 +8,23 @@ body {
     color: #333;
 }
 
+/* Author section */
+.author-info {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.author-info .car-image {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.author-info p {
+    color: #333;
+    font-size: 16px;
+}
+
+
 .container {
     display: flex;
     height: 100vh;
