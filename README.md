@@ -84,19 +84,3 @@ Le conducteur a accès à la liste des covoiturages qu'il a proposé , avec la p
 
 ---
 
-## 5. Fonctionnalitées 
-
-### Étapes d'inscription pour un passager/conducteur :
-1. **Création de compte** : L'utilisateur entre ses informations personnelles comme son nom prénom , le choix d'être soit passager sois conducteur , la ville de résidence , le numéro de téléphone ainsi que l'email
-2. **Validation de l'email** : Un lien de validation est envoyé par email pour confirmer l'adresse.
-3. **Complétion du profil** : Une fois connecté l'utilisateur peut ajouter une photo de profil, et modifier les informations qu'il ne souhaite pas partager.
-   
-### Etapes publication d'un covoiturage
-1. **Choisir le type de covoiturage souhaité** : L'utilisateur a le choix de choisir entre trois types de covoiturages "simple" "express" et "ligne de bus"
-2. **Création de publication pour covoiturage simple** : pour le covoiturage simple , l'utilisateur rentre toutes les informations nécessaires et clique sur envoyer (attention : un covoiturage ne peut pas être envoyé le jour même)
-3. **Création de publication pour covoiturage express** : le covoiturage express est relié avec le système de parcours favoris , en fonction du parcours favoris , les informations sont prédéfinies et il vous reste simplement à sélectionner l'heure de départ.
-4. **Création de publication ligne de bus** : Le covoiturage ligne de bus est un covoiturage automatique , il faut rentrer toutes les informations 
-
-
----
-
