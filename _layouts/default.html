@@ -7,51 +7,50 @@
     <link rel="stylesheet" href="{{ "/assets/css/customs.css" | relative_url }}">
 
 </head>
+
+
 <body>
-
-        <div style="text-align: center; width : 100%;">
-            <header>
-                <p>  ____________________________________________________________</p>
-                <h1>                Documentation Boucovoiturage.fr             </h1>
-                <p>  ____________________________________________________________</p>
-            </header>
-        </div>
-    
-
-    <div class="layout">
-  <aside class="sidebar">
-    <h2>Table des matières</h2>
-    
-    <nav>
-      <ul>
-        <li><a href="#introduction">Introduction</a></li>
-        <li><a href="#fonctionnalites-principales">Fonctionnalités principales</a></li>
-         <li> <a href="#structure-des-pages">Structure des pages</a>
+    <div class="container">
+        <!-- Menu latéral : Table des matières -->
+        <nav class="sidebar">
+            <h2>Sommaire</h2>
             <ul>
-                <li><a href="#page-dinscription-et-de-connexion"> - Page d'inscription</a></li>
-                <li><a href="#page-daccueil"> -Page d'accueil</a></li>
-                <li><a href="#page-de-recherche">- Page de recherche</a></li>
-                <li><a href="#profil-utilisateur">-Profil utilisateur</a></li>
-                <li><a href="#page-de-réservation">-Page de réservation</a></li>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#inscription">Inscription</a></li>
+                <li><a href="#recherche">Recherche de Trajets</a></li>
+                <li><a href="#offres">Proposer un Trajet</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-        </li>
-        <li><a href="#processus-dinscription">Processus d'inscription</a></li>
-      </ul>
-    </nav>
-  </aside>
+        </nav>
 
-  <main class="content">
-      <div style="text-align: center;">
-        <img src="imgs/boucovoituragefr.png" alt="Boucovoiturage" width="50%">
+        <!-- Contenu principal -->
+        <main class="content">
+            <section id="accueil">
+                <h1>Bienvenue sur notre plateforme de covoiturage</h1>
+                <p>Connectez-vous avec d'autres voyageurs et partagez vos trajets facilement et de manière économique !</p>
+            </section>
+
+            <section id="inscription">
+                <h1>Inscription</h1>
+                <p>Inscrivez-vous gratuitement pour commencer à utiliser la plateforme et trouver des trajets.</p>
+            </section>
+
+            <section id="recherche">
+                <h1>Recherche de Trajets</h1>
+                <p>Recherchez un trajet en entrant votre destination et vos préférences de voyage.</p>
+            </section>
+
+            <section id="offres">
+                <h1>Proposer un Trajet</h1>
+                <p>Vous pouvez proposer un trajet et permettre à d'autres de vous rejoindre pour partager les frais.</p>
+            </section>
+
+            <section id="contact">
+                <h1>Contactez-nous</h1>
+                <p>Pour toute question, n'hésitez pas à nous contacter.</p>
+            </section>
+        </main>
     </div>
-
-
-    {{ content }}
-  </main>
-</div>
-
-    <footer>
-        <p>Pied de page</p>
-    </footer>
 </body>
 </html>
+
