@@ -96,7 +96,7 @@ Le conducteur a accès à la liste des covoiturages qu'il a proposé , avec la p
 2. **Création de publication pour covoiturage simple** : pour le covoiturage simple , l'utilisateur rentre toutes les informations nécessaires et clique sur envoyer (attention : un covoiturage ne peut pas être envoyé le jour même)
 3. **Création de publication pour covoiturage express** : le covoiturage express est relié avec le système de parcours favoris , en fonction du parcours favoris , les informations sont prédéfinies et il vous reste simplement à sélectionner l'heure de départ.
 4. **Création de publication ligne de bus** : Le covoiturage ligne de bus est un covoiturage automatique , il faut rentrer toutes les informations 
-![Covoiturage](imgs/type_covoits.png)
+
 
 ---
 
