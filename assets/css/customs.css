@@ -7,9 +7,10 @@
 /* Sidebar (Table des matières) */
 .sidebar {
   position: sticky;
+  font-size: 15px;
   top: 0; /* Garde la barre latérale en haut lorsque l'utilisateur défile */
   width: 320px; /* Ajuste la largeur selon ton besoin */
-  padding: 50px;
+  padding: 20px;
   background-color: lightblue ; /* Couleur de fond de la barre latérale */
   height: 100vh; /* Prend toute la hauteur de la page */
   overflow-y: auto; /* Si la table des matières est trop longue, elle sera scrollable */
