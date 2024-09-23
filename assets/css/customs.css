@@ -1,57 +1,74 @@
-/* Container layout: side-by-side */
-.layout {
-  display: flex;
-  min-height: 100vh; /* S'étend sur toute la hauteur de la fenêtre */
+
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Bleu clair */
+    color: #333;
 }
 
-/* Sidebar (Table des matières) */
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+h1, h2 {
+    color: #2e8b57; /* Vert */
+}
+
+/* Sidebar - Menu à gauche */
 .sidebar {
-  position: sticky;
-  font-size: 15px;
-  top: 0; /* Garde la barre latérale en haut lorsque l'utilisateur défile */
-  width: 320px; /* Ajuste la largeur selon ton besoin */
-  padding: 20px;
-  background-color: lightblue ; /* Couleur de fond de la barre latérale */
-  height: 100vh; /* Prend toute la hauteur de la page */
-  overflow-y: auto; /* Si la table des matières est trop longue, elle sera scrollable */
-  border-right: 2px solid #ccc; /* Optionnel : bordure droite */
+    background-color: #e0ffff; /* Bleu pâle */
+    padding: 20px;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h2 {
+    color: #ffeb3b; /* Jaune pâle */
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 15px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.sidebar ul li a:hover {
+    color: #2e8b57; /* Vert */
 }
 
 /* Contenu principal */
 .content {
-  flex-grow: 1;
-  padding: 30px;
-  overflow-y: auto;
+    margin-left: 270px; /* Espace pour la sidebar */
+    padding: 40px;
+    background-color: #f5f5f5; /* Gris clair */
+    overflow-y: auto;
+    width: calc(100% - 270px);
 }
 
-/* Styles supplémentaires pour rendre le contenu agréable */
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
+section {
+    margin-bottom: 60px;
 }
 
-main h1, main h2, main h3 {
-  margin-top: 1em;
+p {
+    font-size: 18px;
+    line-height: 1.6;
 }
-
-nav ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: darkblue;
-  padding: 2px 0;
-  display: block;
-}
-
-nav ul li a:hover {
-  text-decoration: underline;
-}
-
-ul {
-    list-style-type: none; /* Supprime les puces par défaut */
-    
-}
-
