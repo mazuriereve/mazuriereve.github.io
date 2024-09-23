@@ -21,6 +21,10 @@ Les conducteurs peuvent proposer ou réserver des trajets facilement via l'inter
 
 - **Gestion du profil** : Chaque utilisateur possède un profil personnel avec des informations , qu'il peut choisir de divulger ou non. Comme une photo de profil , donner le nom de famille ou simplement l'initiale. Il peut également choisir de donner ou non son email ou son numéro de téléphone.
 
+- **Planning de covoiturages** : Tout les utilisateurs ont un planning avec les informations du covoiturages et avoir accès aux informations des passagers ou conducteur en fonction du status (conducteur/passager) , ils peuvent parler entre eux via la messagerie , et voir les informations du trajet.
+
+- 
+
 ---
 
 ## 3. Structure des pages
@@ -86,8 +90,11 @@ Le conducteur a accès à la liste des covoiturages qu'il a proposé , avec la p
 1. **Création de compte** : L'utilisateur entre ses informations personnelles comme son nom prénom , le choix d'être soit passager sois conducteur , la ville de résidence , le numéro de téléphone ainsi que l'email
 2. **Validation de l'email** : Un lien de validation est envoyé par email pour confirmer l'adresse.
 3. **Complétion du profil** : Une fois connecté l'utilisateur peut ajouter une photo de profil, et modifier les informations qu'il ne souhaite pas partager.
-### Publication d'un covoiturage
-
+   
+### Etapes publication d'un covoiturage
+1. **Choisir le type de covoiturage souhaité** : L'utilisateur a le choix de choisir entre trois types de covoiturages "simple" "express" et "ligne de bus"
+2. **Création de publication pour covoiturage simple** : pour le covoiturage simple , vous rentrez les informations
+![Covoiturage](imgs/type_covoits.png)
 
 ---
 
